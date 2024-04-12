@@ -55,7 +55,7 @@ p{
 }
 div#bug{
     padding: 10px;
-    background-image: url(../desafio12/pacote-d012/imagens/background001.jpg);
+    background-image: url(pacote-d012/imagens/background001.jpg);
     
     min-height: 75vh;
     
@@ -90,7 +90,7 @@ div.trecho-3{
 
 div#paper{
     padding: 10px;
-    background-image: url(../desafio12/pacote-d012/imagens/background002.jpg);
+    background-image: url(pacote-d012/imagens/background002.jpg);
     min-height: 75vh;
     
     background-position:  right bottom;
