@@ -54,10 +54,11 @@ p{
    
 }
 div#bug{
-    padding: 10px;
+    padding: 20px;
     background-image: url(pacote-d012/imagens/background001.jpg);
     
-    min-height: 75vh;
+    
+    
     
     background-position:  right center;
     background-repeat: no-repeat;
@@ -68,6 +69,16 @@ div#bug{
     position: relative;
     
 }
+
+div#bug >p{
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    
+    
+}
+
 div.trecho-1{
     padding: 20px;
     margin: 10px;
@@ -89,35 +100,31 @@ div.trecho-3{
     
 
 div#paper{
-    padding: 10px;
+    padding: 20px;
     background-image: url(pacote-d012/imagens/background002.jpg);
-    min-height: 75vh;
     
-    background-position:  right bottom;
+    
+    
+    
+    background-position:  right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.582);
-    padding: 10px;
-    padding-top: 20px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.507);
+   
     position: relative;
+     
 
 }
 
-article{
-    background-color: rgba(0, 0, 0, 0.521);
+div#paper >p{
+    background-color: rgba(0, 0, 0, 0.616);
     color: white;
-    position: absolute;
-    top: 30px;
-    left: 40px;
-    max-height: 100vh;
-    
-    
+    padding: 10px;
     display: inline-block;
-}
-article.text-shadow >p{
-    text-shadow: 1px 1px 0px black;
-}
+ }
+
+
 
 footer{
     background-color: black;
